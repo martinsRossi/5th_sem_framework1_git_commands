@@ -26,5 +26,43 @@
             <td>Cria uma branch chamada "feat/gitBrasic"</td>
         </tr>
     </table>
+
+    <h2>Sequência de Comandos - PUSH</h2>
+        <p>
+            <h3>1. Primeiro, adicionaremos os arquivos criados/modificados </h3>
+
+            <code>git add . </code> (ou arquivo)
+            <br>
+           <h5>O "." significa todos os arquivos. Caso queira algum arquivo, escreva ele. Por exemplo: <code>git add README.md</code>  </td>
+           </h3>     
+
+        </p>
+        <p>
+           <h3> 2. Caso seja a primeira vez que fará um commit nesta máquina, precisará fazer os seguintes comandos: </h3>
+            <a href="./configurar_git.html">Clique aqui</a>
+        </p>
+        <p>
+            <h3>3. Uma vez configurado, executamos:</h3>
+            <code>git commit -m "seu_comentário"</code>
+            <br>
+            <h5>O comentário é muito importante para prover o máximo de informações sobre o commit feito </h5>
+        </p>
+        <p>
+           <h3>4. Para verificar o status, rodamos:</h3>
+            <code>git status</code>
+            <br><br>
+            <img src="./img/git_status.PNG">
+        </p>
+        <p>
+            <h3>5. Por fim, executamos</h3>
+            <code>git push -u origin nome/branch</code>
+        </p>
+
+        <p>
+            <h3>6. Caso tudo tenha dado certo, ao dar um <code>git status</code>, aparecerá:</h3>
+            <img src="./img/fina.PNG">
+        </p>
+ 
+
 </body>
 </html>
