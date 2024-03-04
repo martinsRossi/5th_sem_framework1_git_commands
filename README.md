@@ -18,4 +18,4 @@ Esta página fornece uma referência rápida e simples para os comandos Git mais
 
 ## Contribuição
 
-Contrib
+Contribuições para melhorar esta referência são bem-vindas. Se você encontrar erros, tiver sugestões de melhorias ou quiser adicionar mais comandos Git úteis, sinta-se à vontade para abrir uma issue ou enviar um pull request.
